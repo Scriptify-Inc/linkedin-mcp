@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "quibbly": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://server.quibbly.co/mcp"]
+    }
+  }
+}

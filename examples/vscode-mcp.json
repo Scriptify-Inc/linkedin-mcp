@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "quibbly": {
+      "type": "http",
+      "url": "https://server.quibbly.co/mcp"
+    }
+  }
+}

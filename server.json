@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.quibbly/linkedin-inbox",
+  "title": "Quibbly",
+  "description": "Your LinkedIn inbox, connections and video views for AI. Works with any CRM. Drafts only.",
+  "version": "1.1.0",
+  "websiteUrl": "https://quibbly.co/docs/mcp",
+  "icons": [
+    {
+      "src": "https://server.quibbly.co/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.quibbly.co/mcp"
+    }
+  ]
+}
