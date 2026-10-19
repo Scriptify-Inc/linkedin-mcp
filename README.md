@@ -101,13 +101,9 @@ Claude finds every message that isn't logged yet, matches each person to their C
 
 ## How it works
 
-```mermaid
-flowchart LR
-    LI["LinkedIn<br/>(your inbox, in Chrome)"] -- "the Quibbly extension syncs" --> Q["Quibbly<br/>(a private copy + video views)"]
-    Q <-- "MCP" --> C["Claude, Cursor, ChatGPT"]
-    C -- "writes a draft" --> S["Quibbly sheet on LinkedIn"]
-    S -- "you click Send" --> LI
-```
+<p align="center">
+  <img src="assets/how-it-works.png" alt="LinkedIn syncs through the Quibbly extension into Quibbly. Claude reads Quibbly through the MCP and writes a draft, like a reply to Marcus Reid with the Sales Navigator walkthrough attached. The draft lands beside the conversation on LinkedIn, and you click Send." width="100%" />
+</p>
 
 Claude never logs into LinkedIn. The Quibbly extension keeps a private, synced copy of your inbox while you use LinkedIn. Claude reads that copy through the MCP, and anything it writes goes back as a draft into the Quibbly sheet, right next to the conversation, where you send it yourself.
 
