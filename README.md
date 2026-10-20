@@ -120,7 +120,7 @@ About five minutes, start to finish.
 
 ### Claude (web, desktop and mobile)
 
-1. Open **Settings → Connectors** and click **Add custom connector**.
+1. Open **Customize → Connectors**, click **+ Add** and choose **Add custom connector**.
 2. Name it `Quibbly` and paste `https://server.quibbly.co/mcp`, then **Add** and **Connect**.
 3. Sign in to Quibbly if asked, review the permissions and click **Allow**.
 
