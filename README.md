@@ -165,7 +165,7 @@ Add it in **Settings → MCP → Add new server** (transport HTTP), or put this 
 
 ### ChatGPT
 
-Open **Settings → Connectors → Create**, paste `https://server.quibbly.co/mcp`, and approve on the Quibbly page that opens.
+On chatgpt.com, open **Plugins**, click **+** and choose **Add custom MCP server**. Paste `https://server.quibbly.co/mcp`, choose OAuth, create and install it, then approve on the Quibbly page that opens. ChatGPT allows custom MCP servers that write (Quibbly writes drafts) on Business and Enterprise plans; on Business, a workspace admin adds it.
 
 ### Any other MCP client
 
